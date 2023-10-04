@@ -1,0 +1,60 @@
+.App {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #2e86de;
+  }
+  
+  .task-input {
+    margin-bottom: 20px;
+  }
+  
+  .task-input input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #2e86de;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .task-input button {
+    background-color: #2e86de;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .task-input button:hover {
+    background-color: #1c6bd9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
